@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>El Fantástico Mundo del Zoológico</title>
+    <style>
+      header {
+        background-color: #fff3c1;
+        text-align: center;
+        color: #000;
+        font-size: 28px;
+        padding: 20px;
+      }
+      section {
+        background-color: #ffefbb;
+        text-align: center;
+        padding: 50px;
+      }
+      table {
+        background-color: #fffacd;
+        padding: 20px;
+      }
+      footer {
+        background-color: #d5b60a;
+        text-align: center;
+        color: #008000;
+        padding: 10px;
+      }
+    </style>
+    <script>
+      function mostrarElefante() {
+        var contenido = document.getElementById("contenido");
+        contenido.innerHTML = "<img src='elefante.jpeg' alt='Elefante' style='float:left;width:200px;height:200px;'><h2>Elefante</h2><p>Los elefantes son los animales terrestres más grandes del mundo. Pueden pesar hasta 6 toneladas y medir hasta 4 metros de altura.</p>";
+      }
+
+      function mostrarJirafa() {
+        var contenido = document.getElementById("contenido");
+        contenido.innerHTML = "<img src='jirafa.jpeg' alt='Jirafa' style='float:left;width:200px;height:200px;'><h2>Jirafa</h2><p>Las jirafas son los animales más altos del mundo, pueden medir hasta 6 metros de altura. Tienen una lengua muy larga para alcanzar las hojas de los árboles.</p>";
+      }
+
+      function mostrarLeon() {
+        var contenido = document.getElementById("contenido");
+        contenido.innerHTML = "<img src='leon.jpeg' alt='León' style='float:left;width:200px;height:200px;'><h2>León</h2><p>Los leones son los reyes de la selva. Son animales muy fuertes y valientes, y pueden correr a una velocidad de hasta 80 km/h.</p>";
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <img src="lep.jpeg" alt="León" style="float:left;width:100px;height:100px;">
+      <h1>El Fantástico Mundo del Zoológico</h1>
+    </header>
+    <section>
+      <button onclick="mostrarElefante()">Elefante</button>
+      <button onclick="mostrarJirafa()">Jirafa</button>
+      <button onclick="mostrarLeon()">León</button>
+      <br><br>
+      <div id="contenido"></div>
+    </section>
+    <section>
+      <table>
+        <tr>
+          <td>
+            <p>¡Sabías qué?</p>
+            <p>Los delfines son unos de los animales más inteligentes del mundo, y se comunican mediante un complejo lenguaje de sonidos y señales.</p>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <footer>
+      <p>Alvaro Antonio Sanchez, Aldo Emilio Flores Rangel y Denisse Odalys Corona Guzman  18-03-23</p>
+
+      </footer>
+  </body>
+  
